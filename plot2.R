@@ -1,4 +1,4 @@
-    ## sqldf package needed to be installed and loaded for the code to work
+    ## sqldf package needs to be installed and loaded for the code to work
 
 
 power_consumption <- read.csv.sql("household_power_consumption.txt",
