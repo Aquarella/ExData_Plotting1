@@ -1,4 +1,4 @@
-    ## sqldf package needed to be installed and loaded for the code to work
+    ## sqldf package needs to be installed and loaded for the code to work
 
 power_consumption <- read.csv.sql("household_power_consumption.txt",
                     sql = "select * from file where Date in ('1/2/2007', '2/2/2007')",
